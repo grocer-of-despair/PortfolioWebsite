@@ -1,0 +1,14 @@
+/*
+*  Alter CSS at 550px Window Width
+*/
+.features {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.features-item {
+  min-width: 220px;
+}

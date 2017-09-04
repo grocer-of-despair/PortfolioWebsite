@@ -1,0 +1,333 @@
+/* Bootstrap Widths */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 24%;}
+.col-4 {width: 32%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Native Elements */
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+a:hover {
+  color: #444;
+}
+
+header, nav, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: black;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+  min-width: 48px;
+  min-height: 48px;
+  padding: 0;
+  margin: 0;
+}
+
+/**
+*    Header
+**/
+.header {
+  display: flex;
+  background-color: white;
+}
+
+.header-inner {
+  height: 100%;
+}
+
+.udacity-logo {
+  position:absolute;
+  width: 10%;
+  max-width: 50px;
+}
+
+.header-title {
+  float: right;
+  padding-right: 10px;
+  margin-top: 10px;
+  background-image: url(../img/ruairi_portrait_BW.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: right;
+  width: 100%;
+  height: 100%;
+  line-height: 30px;
+  right: 0px;
+  text-transform: uppercase;
+}
+
+/**
+*    Navigation
+**/
+.nav-list {
+  padding: 0;
+  border-color: white;
+  display: inline-flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-item {
+  box-sizing: border-box;
+  display: inline-block;
+  min-width: 48px;
+  min-height: 48px;
+  max-width: 300px;
+  text-align: center;
+  line-height: 24px;
+  padding: 24px;
+  text-transform: uppercase;
+  text-decoration: overline;
+}
+
+.nav-item a {
+  color: white;
+}
+
+.nav-item a:hover {
+  color: #444;
+}
+
+/**
+*    Main
+**/
+.content {
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 5px;
+}
+
+.content-header {
+  color: black;
+  text-decoration: overline;
+  border-top: 2px solid black;
+}
+
+.main-image {
+  height: 200px;
+  background-image: url(../img/squares_matrix.jpg);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-item {
+  height: 300px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.features-item article {
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  position: absolute;
+  color: #fff;
+  padding-left: 1em;
+  height: 40%;
+}
+
+.features-item h4 {
+  border-bottom: 2px solid white;
+}
+
+.features-item a {
+  padding: 24px;
+  text-decoration: overline;
+}
+
+.features-item a:visited {
+  color: white;
+}
+
+.movie-trailer-website {
+  background-image: url(../img/movie_website.png);
+}
+
+.steven-seagal-website {
+  background-image: url(../img/steven_seagal_site.png);
+}
+
+.code-snippets {
+  background-image: url(../img/github_snippets.png);
+}
+
+/**
+*    Footer
+**/
+footer {
+  border-top: 5px solid black;
+}
+
+footer i {
+  text-decoration: underline;
+}
+
+footer a {
+  text-decoration: overline;
+  padding-left: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.footer-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-content {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  padding-left: 17px;
+  padding-top: 17px;
+  width: 95%;
+  max-width: 400px;
+}
+
+.map {
+  padding-left: 17px;
+  padding-top: 17px;
+  width: 95%;
+  max-width: 400px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.address {
+  background-color: #DDD;
+}
+
+.phone {
+  background-color: #EEE;
+}
+
+.email {
+  background-color: #F5F5F5;
+}
+
+.udacity {
+  background-color: #F5F5F5;
+}
+
+.udacity-icon {
+  width: 32px;
+  position: relative;
+  border-bottom: 2px solid black;
+}
+
+.github {
+  background-color: #EEE;
+}
+
+.github-logo {
+  border-bottom: 2px solid black;
+}
+
+.google-certificates {
+  background-color: #DDD;
+}
+
+.google-logo {
+  width:32px;
+  border-bottom: 2px solid black;
+}
+
+.contact article {
+  min-height: 48px;
+  line-height: 24px;
+  width: 100%;
+  padding: 15px;
+}
+
+.social article {
+  min-height: 48px;
+  line-height: 24px;
+  width: 100%;
+  padding: 15px;
+}
+
+/*
+*  Return to Top Chevron
+*  Shoutout to rdallaire@ https://codepen.io/rdallaire/pen/apoyx
+*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
