@@ -1,5 +1,5 @@
 # Ruairi's Portfolio Website
-A Python Movie Database for displaying information and playing trailers of Movies.
+A Portfolio Webpage for displaying projects completed during Nanodegree.
 
 ## Description
 This is Project 2 for the Udacity Full Stack Nanodegree. I was required to design and develop a responsive webpage based on a rough template, to showcase my projects. I was required to include HTML, CSS and optional elements of Javascript.
